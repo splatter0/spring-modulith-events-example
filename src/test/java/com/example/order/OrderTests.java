@@ -13,6 +13,6 @@ public class OrderTests {
     public void orderCreated() throws InterruptedException {
         orderCreateService.create("order1");
 
-        Thread.sleep(100000L);
+        Thread.sleep(5000L);
     }
 }
